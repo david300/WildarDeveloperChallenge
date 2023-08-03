@@ -46,6 +46,8 @@
   <ItemGroup>
     <Compile Include="Refactoring\Figuras\Circulo.cs" />
     <Compile Include="Refactoring\Figuras\Figura.cs" />
+    <Compile Include="Refactoring\Figuras\Rectangulo.cs" />
+    <Compile Include="Refactoring\Figuras\Trapecio.cs" />
     <Compile Include="Refactoring\FormaGeometrica.cs" />
     <Compile Include="Refactoring\Idiomas\Italiano.cs" />
     <Compile Include="Refactoring\Idiomas\Ingles.cs" />

@@ -141,6 +141,18 @@
   <data name="Linea" xml:space="preserve">
     <value>{0} {1} | Area {2:#.##} | Perimeter {3:#.##} &lt;br/&gt;</value>
   </data>
+  <data name="Rectangulo" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="Rectangulos" xml:space="preserve">
+    <value>Rectangles</value>
+  </data>
+  <data name="Trapecio" xml:space="preserve">
+    <value>Trapeze</value>
+  </data>
+  <data name="Trapecios" xml:space="preserve">
+    <value>Trapezoids</value>
+  </data>
   <data name="Triangulo" xml:space="preserve">
     <value>Triangle</value>
   </data>

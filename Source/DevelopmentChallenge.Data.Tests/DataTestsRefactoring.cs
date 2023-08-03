@@ -89,5 +89,23 @@ namespace DevelopmentChallenge.Data.Tests
                 "<h1>Relazione sulle forme geometriche</h1>2 Piazze | Area 29 | Perimetro 28 <br/>2 Cerchi | Area 13,01 | Perimetro 18,06 <br/>3 Triangoli | Area 49,64 | Perimetro 51,6 <br/>TOTAL:<br/>7 forme geometriche perimetro 97,66 area 91,65",
                 resumen);
         }
+
+        [TestCase]
+        public void TestResumenListaTrapeciosRectangulosItaliano()
+        {
+            var formas = new List<IFormaGeometrica>
+            {
+                new Trapecio(2, 1, 4, 1, 1),
+                new Rectangulo(1, 4),
+                new Trapecio(3, 1, 4, 6, 3),
+                new Rectangulo(2, 2)
+            };
+            var idiomaItaliano = new Italiano();
+            var resumen = FormaGeometrica.Imprimir(formas, idiomaItaliano);
+
+            Assert.AreEqual(
+                "<h1>Relazione sulle forme geometriche</h1>2 Trapezi | Area 14 | Perimetro 18 <br/>2 Rettangoli | Area 8 | Perimetro 18 <br/>TOTAL:<br/>4 forme geometriche perimetro 36 area 22",
+                resumen);
+        }
     }
 }

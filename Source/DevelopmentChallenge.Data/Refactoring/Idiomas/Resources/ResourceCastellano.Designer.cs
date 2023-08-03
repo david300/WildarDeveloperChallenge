@@ -133,6 +133,42 @@ namespace DevelopmentChallenge.Data.Refactoring.Idiomas.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Rectangulo.
+        /// </summary>
+        internal static string Rectangulo {
+            get {
+                return ResourceManager.GetString("Rectangulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Rectangulos.
+        /// </summary>
+        internal static string Rectangulos {
+            get {
+                return ResourceManager.GetString("Rectangulos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Trapecio.
+        /// </summary>
+        internal static string Trapecio {
+            get {
+                return ResourceManager.GetString("Trapecio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Trapecios.
+        /// </summary>
+        internal static string Trapecios {
+            get {
+                return ResourceManager.GetString("Trapecios", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Triángulo.
         /// </summary>
         internal static string Triangulo {
